@@ -12,7 +12,7 @@ size_t write_data(void *veripointeri, size_t elemanboyutu, size_t elemansayisi, 
     // Veriyi bellek alanına kopyalama
     memcpy(dondurulenpointer, veripointeri, veriboyutu);
 
-    // return, libcurl'ün veriyi doğru bir şekilde işlemesine yardımcı olur
+    // return, libcurl'ün veriyi doğru bir şekilde işlemesine yardımcı olur.
     return veriboyutu;
 }
 
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 
 int kordinatlar()
 {
-    // *curl pointerı libcurl kütüphanesini kullanarak web istekleri yapar ve yanıtları alır
+    // *curl pointerı libcurl kütüphanesini kullanarak web istekleri yapar ve yanıtları alır.
     CURL *curl;
     // Veri değişkeni, urlden gelen yanıtları tutar
     CURLcode veri;
